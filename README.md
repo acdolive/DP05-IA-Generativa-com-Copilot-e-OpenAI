@@ -1,40 +1,24 @@
 # DP05-IA-Generativa-com-Copilot-e-OpenAI
-## 1º Laboratório do Desafio 5
-### Acessando Copilot 
-Abra o Microsoft Copilot.https://copilot.microsoft.com
-Digite um prompt: . Você verá um Pesquisando por:... e Gerando... aparecer antes da resposta. 
+## Desafio Reconhecimento de Texto em Imagens   
 
-![image](https://github.com/acdolive/DP05-IA-Generativa-com-Copilot-e-OpenAI/assets/162451624/bd782ee1-87d0-44b9-b82f-4ec5d6202947)
+Para realização do desafio proposto utilizaremos os recursos de reconhecimento de imagens do Azure AI Vision Studio!
 
-![image](https://github.com/acdolive/DP05-IA-Generativa-com-Copilot-e-OpenAI/assets/162451624/045543da-a9a8-476e-b3f0-a7620cd347e4)
+### Passo 1: Criar recurso do Azure AI Services
+Você pode utilizar um recurso já criado anteriormente para os desafios anteriores. 
 
-Exemplo de geração de imagem.
+### Passo 2: Abrindo e configurando o Portal AI Vision Studio
+Acesse o Azure AI Vision Studio e selecione o serviço de inteligência artificial disponível 
 
-![image](https://github.com/acdolive/DP05-IA-Generativa-com-Copilot-e-OpenAI/assets/162451624/b67a9ba2-472c-4696-b6c6-022a90ac17be)
+### Passo 3: Utilizando as nossas imagens no serviço Azure AI Vision Studio
+Em seguida selecione a guia "Reconhecimento Optico de Caracteres/OPTICAL CHARACTER RECOGNITION" e escolher a opção EXTRACT TEXT FROM IMAGES:
 
-## 2º Laboratário do Desafio 5
-### Explorando os Recursos de IA Generativa
-Antes de começar você precisará de uma assinatura do Azure para acessar o serviço Azure OpenAI para modelos de texto e código e modelos de geração de imagem DALL-E.
+![image](https://github.com/acdolive/DP05-IA-Generativa-com-Copilot-e-OpenAI/assets/162451624/03e31aa1-2c33-42a9-ba07-c520c2cfc130)
 
-- Para se inscrever em uma assinatura gratuita do Azure, visite https://azure.microsoft.com/free.
-- Para solicitar acesso ao serviço Azure OpenAI, visite https://aka.ms/oaiapply.
-- Provisionar um recurso do Azure OpenAI
 
-Antes de poder usar modelos do Azure OpenAI,  provisionar um recurso do Azure OpenAI em sua assinatura do Azure.
 
-Entre no portal do Azure.
-Crie um recurso do Azure OpenAI com as seguintes configurações:
-Assinatura: uma assinatura do Azure que foi aprovada para acesso ao serviço Azure OpenAI.
-Grupo de recursos: escolha um grupo de recursos existente ou crie um novo com um nome de sua escolha.
-Região: Leste dos EUA*
-Nome: Um nome exclusivo de sua escolha
-Nível de preços: Standard S0
-* Diferentes regiões têm disponibilidade e cota diferentes para modelos. Neste exercício, você usará um modelo GPT-35-Turbo para geração de texto e um modelo DALL-E para geração de imagem, ambos fornecidos no leste dos EUA.
+![image](https://github.com/acdolive/DP05-IA-Generativa-com-Copilot-e-OpenAI/assets/162451624/5228226a-b37b-4d20-bff3-5c204e7756e7)
 
-Aguarde a conclusão da implantação. Em seguida, vá para o recurso Azure OpenAI implantado no portal do Azure.
-Explore Azure OpenAI Studio
-Você pode implantar, gerenciar e explorar modelos em seu Serviço Azure OpenAI usando o Azure OpenAI Studio.
+![image](https://github.com/acdolive/DP05-IA-Generativa-com-Copilot-e-OpenAI/assets/162451624/609a1c61-977f-4068-a7db-5c0a8d26260a)
 
-Na página Visão geral do recurso Azure OpenAI, use o botão Explorar para abrir o Azure OpenAI Studio em uma nova guia do navegador. Como alternativa, navegue até o Azure OpenAI Studio diretamente.
+![image](https://github.com/acdolive/DP05-IA-Generativa-com-Copilot-e-OpenAI/assets/162451624/6db70be4-39b0-463b-a2e6-174d2da1e8ca)
 
-Quando você abre o Azure OpenAI Studio pela primeira vez, ele deve ser semelhante a este:
