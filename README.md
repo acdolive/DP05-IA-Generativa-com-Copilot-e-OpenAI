@@ -9,6 +9,8 @@ Você pode utilizar um recurso já criado anteriormente para os desafios anterio
 ### Passo 2: Abrindo e configurando o Portal AI Vision Studio
 Acesse o Azure AI Vision Studio e selecione o serviço de inteligência artificial disponível 
 
+![image](https://github.com/acdolive/DP05-IA-Generativa-com-Copilot-e-OpenAI/assets/162451624/f7c6dd8a-0ff0-4535-8caa-1df7c3543ae6)
+
 ### Passo 3: Utilizando as nossas imagens no serviço Azure AI Vision Studio
 Em seguida selecione a guia "Reconhecimento Optico de Caracteres/OPTICAL CHARACTER RECOGNITION" e escolher a opção "Extrair Texto de Imagens/EXTRACT TEXT FROM IMAGES":
 
